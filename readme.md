@@ -3,4 +3,4 @@ This modification was only tested with chrome but should work on other browsers.
 
 you can add it as a bookmarklet by drag and dropping the link below to your bookmark bar: 
 
-[bookmarklet](javascript:(function(\){var script=document.createElement('script'\);script.setAttribute('src','http://agence-modedemploi.com/cssRefresh.js'\);var head=document.getElementsByTagName('head'\);head[0].appendChild(script\);}\)(\);)
+<a href="javascript:(function(){var script=document.createElement('script');script.setAttribute('src','http://agence-modedemploi.com/cssRefresh.js');var head=document.getElementsByTagName('head');head[0].appendChild(script);})();">Bookmarklet</a>
